@@ -7,6 +7,8 @@ package code;
  */
 public class P0583 {
     public int minDistance(String word1, String word2) {
-        return 0;
+        P1143 common = new P1143();
+        int commonLength = common.longestCommonSubsequence(word1, word2);
+        return word1.length()+word2.length()-2*commonLength;
     }
 }
