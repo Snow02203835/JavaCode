@@ -40,7 +40,7 @@ public class P0809 {
         }
         return count;
     }
-    private int findContinue(String str, int start) {
+    public int findContinue(String str, int start) {
         int len = 1;
         char ch = str.charAt(start);
         for (int i = start+1; i < str.length(); i++) {
