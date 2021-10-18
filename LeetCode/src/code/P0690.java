@@ -31,5 +31,5 @@ public class P0690 {
         public int id;
         public int importance;
         public List<Integer> subordinates;
-    };
+    }
 }
